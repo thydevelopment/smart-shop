@@ -61,8 +61,6 @@ export const registerUser = asyncHandler(async (req, res) => {
 })
 
 // @desc Login User
-
-
 export const loginUser = asyncHandler(async (req, res) => {
     const { email, password } = req.body;
 
@@ -108,7 +106,6 @@ export const loginUser = asyncHandler(async (req, res) => {
         },
     });
 });
-
 
 // Logout user
 export const logoutUser = asyncHandler(async (req, res) => {
